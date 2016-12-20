@@ -46,3 +46,11 @@ console.log(exampleConcat);
 const exampleSample = sample([1, 2, 3, 4]);
 console.log(exampleSample);
 ```
+
+## Run tests
+
+Just run:
+
+```
+$ npm install && make comparison
+```

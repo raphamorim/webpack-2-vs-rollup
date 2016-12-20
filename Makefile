@@ -4,7 +4,7 @@ webpack:
 rollup:
 	./node_modules/rollup/bin/rollup -c rollup.js
 
-compare: 
+comparison:
 	make webpack
 	make rollup
 	du -h dist/*.js
