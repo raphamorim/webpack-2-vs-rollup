@@ -10,7 +10,7 @@ Webpack Version: `2.2.0-rc.1`
 
 Rollup Version: `0.37.0`
 
- | . | Compressed without sourcemap | Compressed with **inline** sourcemap
+| . | Compressed without sourcemap | Compressed with **inline** sourcemap
 | --- | --- | --- |
 | Webpack | 26,953 bytes (29 KB on disk) | ~384K
 | Rollup | 17,450 bytes (20 KB on disk) | ~208K
