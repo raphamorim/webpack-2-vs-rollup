@@ -1,6 +1,6 @@
 # Webpack 2 VS Rollup
 
-The idea is to compare the build between Webpack 2 and Rollup, checking features like Tree Shaking (recently added in Webpack 2). 
+The idea is to compare the build between [Webpack 2](https://github.com/webpack/webpack) and [Rollup](https://github.com/rollup/rollup), checking features like Tree Shaking (recently added in Webpack 2). 
 
 Note: Unlike tests like [this one](https://gist.github.com/forabi/2a538b263d0f1fe5f041), It'll check the comparison between differences about **file compression**, without create a separated source map file.
 
