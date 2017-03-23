@@ -8,3 +8,4 @@ comparison:
 	make webpack
 	make rollup
 	du -h dist/*.js
+	du -h dist/*.js.map
