@@ -1,19 +1,19 @@
 # Webpack 2 VS Rollup
 
-The idea is to compare the build between [Webpack 2](https://github.com/webpack/webpack) and [Rollup](https://github.com/rollup/rollup), checking features like Tree Shaking (recently added in Webpack 2). 
+The idea is to compare the build between [Webpack 2](https://github.com/webpack/webpack) and [Rollup](https://github.com/rollup/rollup), checking features like Tree Shaking (recently added in Webpack 2).
 
 Note: Unlike tests like [this one](https://gist.github.com/forabi/2a538b263d0f1fe5f041), It'll check the comparison between differences about **file compression**, without create a separated source map file.
 
 ## Comparison
 
-Webpack Version: `2.2.0-rc.1`
+Webpack Version: `2.3.1`
 
-Rollup Version: `0.37.0`
+Rollup Version: `0.41.6`
 
-| . | Compressed without sourcemap | Compressed with **inline** sourcemap
+| . | Compressed without sourcemap | Separate Sourcemap Size
 | --- | --- | --- |
-| Webpack | 26,953 bytes (29 KB on disk) | ~384K
-| Rollup | 17,450 bytes (20 KB on disk) | ~208K
+| Webpack | ~28 KB | ~360K
+| Rollup | ~20 KB | ~144K
 
 ## Example.js
 
