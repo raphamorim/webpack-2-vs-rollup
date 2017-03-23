@@ -25,5 +25,6 @@ export default {
     uglify()
   ],
   // sourceMap: 'inline',
-  format: 'iife'
+  format: 'iife',
+  sourceMap: true
 };

@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
 	context: __dirname + '/src',
-	devtool: 'hidden-source-map', // eval-source-map to check source map
+	devtool: "source-map",
 	module: {
 		loaders: [{
 			test: /.js?$/,
@@ -21,7 +21,11 @@ module.exports = {
 		filename: 'webpack-bundle.js'
 	},
 	plugins: [
-		new webpack.optimize.UglifyJsPlugin(),
+		new webpack.optimize.UglifyJsPlugin(
+            {
+                sourceMap: true
+            }
+        ),
 		new webpack.LoaderOptionsPlugin({
 		  debug: false,
 		  minimize: true
